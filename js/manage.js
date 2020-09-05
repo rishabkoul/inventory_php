@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  var DOMAIN = "http://localhost/inv_project";
+  var DOMAIN = "https://inventory-mini.herokuapp.com/";
 
   //Mange Category
   manageCategory(1);
