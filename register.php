@@ -46,12 +46,10 @@
 						<input type="password" name="password2" class="form-control" id="password2" placeholder="Password">
 						<small id="p2_error" class="form-text text-muted"></small>
 					</div>
-					<div class="form-group">
+					<div style="display: none;" class="form-group">
 						<label for="usertype">Usertype</label>
 						<select name="usertype" class="form-control" id="usertype">
-							<option value="">Choose User Type</option>
 							<option value="Admin">Admin</option>
-							<option value="Other">Other</option>
 						</select>
 						<small id="t_error" class="form-text text-muted"></small>
 					</div>
