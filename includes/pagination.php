@@ -1,7 +1,7 @@
 <?php
 
 
-$con = mysqli_connect("localhost","root","","test");
+$con = mysqli_connect("remotemysql.com","jjB3n9plGf","ZOI2Tx6OrY","jjB3n9plGf");
 
 function pagination($con,$table,$pno,$n){
 	$query = $con->query("SELECT COUNT(*) as rows FROM ".$table);
@@ -62,6 +62,3 @@ if (isset($_GET["pageno"])) {
 	echo "<div style='font-size:22px;'>".$array["pagination"]."</div>";
 
 }
-
-
-?>
